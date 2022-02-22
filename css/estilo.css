@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.cabecalho {
+    display: flex;
+    float: left;
+    width: 2%;
+    background-color: blue;
+    height: 100vh;
+    list-style: none;
+}
+li {
+    list-style-type: none;
+}
+
+.caixa1, .caixa2, .caixa3 {
+    display: flex;
+    background: rgb(170, 168, 168);
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.caixa2 h4 {
+    color: blue;
+}
+
+.caixa3 h4, .caixa1 h4 {
+    color: rgb(255, 136, 0);
+}
+
+.global {
+    display: flex;
+}
+
+
+.global1 img {
+    width: 82px;
+    height: 63px;
+}
+
+.joao, .pedro, .jose {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.joao p, .pedro p, .jose p{
+    margin-top: 50px;
+    margin-left: -28px;
+}
+
+.joao h5, .pedro h5, .jose h5 {
+    margin-left: 474px;
+}
+
+.ola {
+    border-radius: -111px;
+    width: 904px;
+    height: 195px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-style: outset;
+    }
+
+.borda {
+    margin-left: -124px;
+    border-radius: -32px;
+    width: 204px;
+    height: 43px;
+    padding: 15px;
+    margin-top: 87px;
+    background: yellow;
+}
+
+.borda p {
+    color: rgb(212, 211, 211);
+}
+
+.direito {
+    display: flex;
+    width: 60%;
+    height: 40%;
+    background: grey;
+}
+
+.metade1 {
+    width: 60%;
+}
+
+.metade2 {
+    width: 40%;
+    background: grey;
+}
+
+
