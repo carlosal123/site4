@@ -3,7 +3,7 @@
 .cabecalho {
     display: flex;
     float: left;
-    width: 2%;
+    width: 100px;
     background-color: blue;
     height: 100vh;
     list-style: none;
@@ -89,11 +89,88 @@ li {
 
 .metade1 {
     width: 60%;
+    
 }
 
 .metade2 {
     width: 40%;
     background: grey;
+
+}
+
+.globaal {
+    display: flex;
+}
+
+.direito img {
+    width: 98px;
+    height: 78px;
+    border-radius: 50%;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.direito {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.diario {
+    border-radius: 30px;
+    border-style: inherit;
+    padding: 2%;
+    background: black;
+    width: 304px;
+    height: 123px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.diario h2, .diario p {
+    color: white;
+}
+
+.tarefas {
+    border-radius: 12px;
+    width: 304px;
+    height: 120px;
+    border-style: solid;
+    color: black;
+}
+
+.caixas {
+    display: flex;
+    
+
+}
+
+.joao2 img {
+    width: 98px;
+    height: 78px;
+}
+
+.pont, .pont2 {
+    margin-left: 580px;
+    margin-top: -87px;
+    font-size: 18px;
+}
+
+.borda2 {
+    width: 216px;
+    border-radius: 16px;
+    height: 84px;
+    background: blue;
+    display: flex;
+    padding: 8%;
+    color: white;
+    justify-content: center;
+    margin-top: -808px;
+    margin-left: -82px;
+    justify-items: center;
+}
 }
 
 
